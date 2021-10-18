@@ -34,6 +34,7 @@ form{
 
 }
 .pokemon_container{
+  padding-left: 45%;
   padding-top: 30px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 30px;
@@ -43,4 +44,10 @@ input{
   border: 2px solid black;
 height: 30px;
 
+}
+.pokemon_container ul li{
+  list-style: none;
+}
+.pokemon_container img{
+  width: 150px;
 }
